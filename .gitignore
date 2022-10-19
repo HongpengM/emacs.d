@@ -1,0 +1,45 @@
+
+tutorial/
+
+markdown/
+snippets/
+package_manual/
+
+
+# elisp compile files
+*.elc
+*/*.elc
+
+# python env
+.python-environments/
+
+
+###########################
+#     Temp Files	  #
+###########################
+
+# OSX file system
+.DS_Store
+*/.DS_Store
+
+# elpa packages
+url/
+
+# Cask temp
+.cask/
+
+# auto-update
+.last-package-update-day
+
+# ido-mode cache
+ido.last
+
+# temp files
+*~
+*/*~
+
+# Auto-save 
+auto-save-list/
+
+# ELPA archives folders
+elpa/*

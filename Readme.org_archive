@@ -1,0 +1,25 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/k/.emacs.d/Readme.org
+
+
+* Implemented Features
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-01-22 Tue 21:19
+  :ARCHIVE_FILE: ~/.emacs.d/Readme.org
+  :ARCHIVE_OLPATH: Emacs Setup
+  :ARCHIVE_CATEGORY: Readme
+  :END:
+  - Apperance
+    - [ ] themes
+      - [ ]Random themes, in ~init-appearance.el~
+      - [ ]Doom themes, in ~init-zdoom.el~
+      - [ ]Rainbow-mode & Rainbow Delimiters Mode
+      - [ ]Nyan bar, in ~init-appearance.el~
+  - Languages
+    - [ ] Programming Languages
+    - [ ] Language server Protocol plugins
+      - [ ]
+
+  - Emacs Utils

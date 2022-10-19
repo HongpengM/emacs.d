@@ -1,0 +1,118 @@
+* Emacs Setup
+
+** Reset Emacs for Org-mode and light programming
+
+** BELOW IS DEPRECIATED
+
+** Implemented Features
+   - Apperance
+     - [X] themes
+       - [X] Random themes, in ~init-appearance.el~
+       - [X] Doom themes, in ~init-zdoom.el~
+       - [X] Rainbow-mode & Rainbow Delimiters Mode
+       - [X] Nyan bar, in ~init-appearance.el~
+   - Languages
+     - [-] Programming Languages
+       - [X] Shell
+	 - [X] Completion
+	 - [X] Syntax
+	 - [X] REPL
+       - [-] C/C++
+	 - [X] Completion
+	 - [X] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [-] Common Lisp
+	 - [X] Completion
+	 - [X] Syntax
+	 - [ ] Language Server
+	 - [X] REPL
+       - [X] Dart
+	 - [X] Completion
+	 - [X] Syntax
+	 - [X] Language Server
+       - [-] Emacs Lisp
+	 - [X] Completion
+	 - [X] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [-] Go
+	 - [X] Completion
+	 - [ ] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [ ] Haskell
+	 - [ ] Completion
+	 - [ ] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [-] JavaScript
+	 - [X] Completion
+	 - [X] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [-] Julia
+	 - [X] Completion
+	 - [ ] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [-] Python
+	 - [X] Completion
+	 - [X] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [-] Scala
+	 - [X] Completion
+	 - [ ] Syntax
+	 - [ ] Language Server
+	 - [ ] REPL
+       - [-] Scheme
+	 - [X] Completion
+	 - [X] Syntax
+	 - [ ] Language Server
+	 - [X] REPL
+     - [X] Mark Language
+       - [X] Markdown mode
+       - [X] YAML mode
+       - [X] Dockerfile
+       - [X] Graphviz Dot
+       - [X] Json mode
+       - [X] Latex
+       - [X] Web(HTML CSS XML)
+     - [-] Language server Protocol plugins & IDE-like
+       - [X] Python: Elpy
+       - [ ] C++/C: cquery
+       - [X] Dart: dart-langserver
+       - [ ]
+     - [X] Completion
+       - [X] Company-mode:
+       - [X] flx
+       - [X] yasnippets & snippets: code template
+       - [X] ido: interactive completion in minibuffer
+     - [-] Syntax Check
+       - [X] Flycheck
+       - [ ] Flymake
+     - [X] Git: Absolutely Magit
+
+   - Emacs Utils
+     - [X] helm
+     - [X] Search
+       - [X] helm-swoop
+       - [X] phi-search: search plugin under multiple-cursors
+     - [X] Automatically update
+     - [X] Windmove: Window Movement
+     - [X] Dired settings
+     - [X] YouDao Dict
+
+   - Productivity
+     - [X] Deft: Fast Notes Taking
+     - [X] Org: Needless to say
+     - [X] Org-wiki: Personal knowledge Management
+     - [X] Presentation
+       - [X] ox-reveal.js
+       - [X] org export to beamer
+
+   - Leisure & Reading
+     - [ ] Web browser + Video
+     - [X] Nov: epub reader
+     - [X] Tex2Chinese: c2tex
