@@ -92,16 +92,6 @@
 
 
 
-
-;;; ###
-;;Set url proxy method
-;;(setq url-proxy-services
-;;      '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-;;	("http" . "127.0.0.1:1080")
-;;	("https" . "127.0.0.1:1080")))
-
-
-
 ;;------------------------------
 ;; Projectile settings
 ;(require 'projectile)
@@ -126,18 +116,6 @@
 
 
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- 
- '(package-selected-packages
-   (quote
-    (htmlize  nvm js-comint dockerfile-mode ensime paredit epm geiser julia-mode company-tern xref-js2 js2-refactor js2-mode  markdown-mode magit projectile web-mode elpy)))
- )
-
-;;(load "~/.emacs.d/init-orgwiki.el")
 
 (provide 'init)
 ;;; init.el ends here

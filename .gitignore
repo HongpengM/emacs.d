@@ -4,7 +4,8 @@ tutorial/
 markdown/
 snippets/
 package_manual/
-
+semanticdb/
+transient/
 
 # elisp compile files
 *.elc
