@@ -1,3 +1,4 @@
+
 * Emacs Setup
 
 ** Reset Emacs for Org-mode and light programming

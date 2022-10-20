@@ -4,16 +4,28 @@
 ;; ;; NETWORK Proxy | 设置代理 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Ubuntu
-(when (eq system-type 'gnu/linux)
-  (setq url-proxy-services '(("no_proxy" . "^\\(localhost\\|10.*\\)")
-			     ("http" . "127.0.0.1:20171")
-			     ("https" . "127.0.0.1:20171"))))
-;; Mac
-(when (eq system-type 'darwin)
-  (setq url-proxy-services '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+
+(cond ((eq system-type 'darwin)
+       (setq url-proxy-services '(("no_proxy" . "^\\(localhost\\|10.*\\)")
 			     ("http" . "127.0.0.1:1087")
 			     ("https" . "127.0.0.1:1087"))))
-;; 
+      ((string-match "-[Mm]icrosoft" operating-system-release)
+       nil )
+       ;; (setq url-proxy-services '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+       ;; 			     ("http" . "172.31.48.1:10811")
+       ;; 			     ("https" . "172.31.48.1:10811"))))
+      ((eq system-type 'gnu/linux)
+       (setq url-proxy-services '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+			     ("http" . "127.0.0.1:20171")
+			     ("https" . "127.0.0.1:20171"))))
+      (t ""))
+
+;; (when 
+;;   )
+;; ;; Mac
+;; (when 
+;;   )
+ 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; ;; Mac Key settings | Mac 键位设置 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

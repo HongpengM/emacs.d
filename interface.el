@@ -28,6 +28,14 @@
 ;; Set Fira Code-16
 (set-face-attribute 'default nil :font "Fira Code-16")
 
+(cond ((eq system-type 'darwin)
+       (set-face-attribute 'default nil :font "Fira Code-14"))
+      ((string-match "-[Mm]icrosoft" operating-system-release)
+       (set-face-attribute 'default nil :font "Fira Code-12"))
+      ((eq system-type 'gnu/linux)
+       (set-face-attribute 'default nil :font "Fira Code-16"))
+      (t ""))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Default Behaviours | 默认行为 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

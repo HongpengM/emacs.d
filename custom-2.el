@@ -30,7 +30,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(el-get w3m use-package-el-get use-package srefactor htmlize nvm js-comint dockerfile-mode ensime paredit epm geiser julia-mode company-tern xref-js2 js2-refactor js2-mode markdown-mode magit projectile web-mode elpy)))
+   '(yasnippet yaml-mode django-mode scss-mode emmet-mode xmlgen company-restclient restclient httprepl auto-package-update wgrep visual-regexp-steroids org-download org-bullets nov phi-search multiple-cursors eglot lsp-haskell lsp-mode org2ctex json-mode json-reformat ido-at-point flx-ido flx helm-books helm-themes helm-descbinds helm-swoop helm-helm-commands helm-company helm-proc helm-google ace-jump-helm-line helm haskell-mode graphviz-dot-mode go-mode flycheck-pos-tip flycheck undercover ert-expectations el-mock overseer ert-modeline elisp-slime-nav litable emr dired-launch dired-open dired-rainbow youdao-dictionary deft dart-mode company-quickhelp shell-pop company-shell bash-completion nameless diff-hl smartrep rainbow-mode rainbow-delimiters fic-mode anzu material-theme sublime-themes plan9-theme yoshi-theme jazz-theme darktooth-theme gruvbox-theme kaolin-themes gotham-theme soothe-theme smart-mode-line nyan-mode doom-themes load-dir req-package use-package-chords exec-path-from-shell w3m use-package-el-get use-package srefactor htmlize nvm js-comint dockerfile-mode ensime paredit epm geiser julia-mode company-tern xref-js2 js2-refactor js2-mode markdown-mode magit projectile web-mode elpy)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
