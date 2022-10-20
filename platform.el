@@ -63,3 +63,5 @@
   ;; Support for Fira Code Font
   (when (version< emacs-version "27.0")
     (mac-auto-operator-composition-mode)))
+(when (eq system-type 'darwin)
+  (load "~/.emacs.d/init-real.el"))

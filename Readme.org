@@ -2,6 +2,42 @@
 
 ** Reset Emacs for Org-mode and light programming
 
+*** Emacs Version
+
+    Emacs 27
+    
+*** Need Mannual Installation
+
+    
+**** El-get
+
+    
+     
+     ;; So the idea is that you copy/paste this code into your *scratch* buffer,
+     ;; hit C-j, and you have a working el-get.
+     (url-retrieve
+     "https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el"
+     (lambda (s)
+     (goto-char (point-max))
+     (eval-print-last-sexp)))
+     ```
+
+     `C-j` or `M-x eval-print-last-exp`
+     
+     
+**** exec-path-from-shell
+
+     M-x package-install <RET> exec-path-from-shell
+     
+
+**** srefactor
+
+     M-x package-install <RET> srefactor
+
+**** doom-themes
+
+     M-x
+   
 ** BELOW IS DEPRECIATED
 
 ** Implemented Features

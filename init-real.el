@@ -85,10 +85,7 @@
   (funcall 'select-theme))
 
 
-;; Add exec path from shell ;; after package-initialize
-;; by Purcell
-(when (memq window-system '(mac ns x))
-  (exec-path-from-shell-initialize))
+
 
 
 
