@@ -15,6 +15,8 @@
 (setq initial-scratch-message "\n\n\n\n\n\n==============================\n
      ***** Happy Hacking *****\n
 ============================== \n\n\n\n\n\n")
+(add-hook 'after-init-hook 'org-agenda-list)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; Line mode | 行号 ;;

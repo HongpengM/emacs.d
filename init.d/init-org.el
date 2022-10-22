@@ -32,7 +32,7 @@
 	    
 	    ;; TODO Settings
 	    (setq org-todo-keywords '(
-				      (sequence "TODO(t!)" "WAIT(w!)" "CLAR(c!)" "MAYB(m)" "|" "DONE(!)" "KILL(k@)" "CHEK(l!)"))
+				      (sequence "TODO(t!)" "WAIT(w!)" "CLAR(c@)" "MAYB(m)" "|" "DONE(!)" "KILL(k@)" "CHEK(l!)" "ARCH(a@)"))
 		  )
 	    (setq org-todo-keyword-faces '(("TODO" . (:foreground "#f71c0c"
 								  :background "white"
@@ -41,6 +41,8 @@
 								  :box (:line-width 1 :color "#f42202"
 										    :style "release-button")))
 					   ("DONE" . (:foreground "#75f980" :background "#016809"
+								  :weight bold))
+					   ("ARCH" . (:foreground "#75f980" :background "#016809"
 								  :weight bold))
 					   ("WAIT" . (:foreground "white" :background "#f98125"
 								  :weight bold))
