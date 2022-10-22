@@ -53,6 +53,12 @@
 (use-package undercover :ensure t
   :requires lisp-mode)
 
+
+(use-package dash
+  :ensure t
+  :config (dash-enable-font-lock))
+
+
 (require 'srefactor)
 (require 'srefactor-lisp)
 

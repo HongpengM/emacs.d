@@ -135,12 +135,6 @@
 
 (setq make-pointer-invisible nil)
 
-;; Highlight keyword FIXME & TODO
-(use-package fic-mode
-  :ensure t
-  :config (add-hook-exec 'prog-mode
-			 (lambda ()
-			   (fic-mode 1))))
 
 (use-package rainbow-delimiters
   :ensure t
@@ -163,10 +157,6 @@
 (use-package nameless
   :ensure t
   :config (add-hook-exec 'emacs-lisp-mode #'nameless-mode))
-
-(use-package dash
-  :ensure t
-  :config (dash-enable-font-lock))
 
 ;; (load-theme 'material t)
 

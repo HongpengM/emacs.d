@@ -20,6 +20,17 @@
 			     ("https" . "127.0.0.1:20171"))))
       (t ""))
 
+;;;;;;;;;;;;;;;;;;;;;;;;
+;; Org-mode directory ;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+(cond ((eq system-type 'darwin)
+       (setq org-agenda-files '("~/Library/CloudStorage/OneDrive-Personal/ORGMODE/Agenda")))
+      ((string-match "-[Mm]icrosoft" operating-system-release)
+       (setq org-agenda-files '("~/OneDrive/ORGMODE/Agenda")))
+      ((eq system-type 'gnu/linux)
+       (setq org-agenda-files '("~/OneDrive/ORGMODE/Agenda")))
+      (t ""))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; ;; Mac Key settings | Mac 键位设置 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
