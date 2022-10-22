@@ -26,7 +26,7 @@
 (cond ((eq system-type 'darwin)
        (setq org-agenda-files '("~/Library/CloudStorage/OneDrive-Personal/ORGMODE/Agenda")))
       ((string-match "-[Mm]icrosoft" operating-system-release)
-       (setq org-agenda-files '("~/OneDrive/ORGMODE/Agenda")))
+       (setq org-agenda-files '("/mnt/c/Users/Q/OneDrive/ORGMODE/Agenda")))
       ((eq system-type 'gnu/linux)
        (setq org-agenda-files '("~/OneDrive/ORGMODE/Agenda")))
       (t ""))
