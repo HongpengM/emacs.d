@@ -1,6 +1,3 @@
-[submodule "el-get/el-get"]
-	path = el-get/el-get
-	url = https://github.com/dimitri/el-get.git
 [submodule "packages/org-wiki"]
 	path = packages/org-wiki
 	url = https://github.com/caiorss/org-wiki

@@ -8,7 +8,14 @@
 (package-initialize)
 
 (require 'package)
-
+;; Package Archives | 软件源
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+			 ("melpa" . "https://melpa.org/packages/")
+			 ("melpa-stable" . "https://stable.melpa.org/packages/")
+			 ("org" . "https://orgmode.org/elpa/")
+			 ;;("marmalade" . "https://marmalade-repo.org/packages/")
+			 ))
+(put 'downcase-region 'disabled nil)
 
 (load "~/.emacs.d/interface.el")
 (load "~/.emacs.d/platform.el")
@@ -31,11 +38,7 @@
 	  (lambda ()
 	    (load "~/.emacs.d/init-real.el")))
 
-;; Package Archives | 软件源
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-			 ("melpa" . "https://melpa.org/packages/")
-			 ("melpa-stable" . "https://stable.melpa.org/packages/")
-			 ("org" . "https://orgmode.org/elpa/")
-			 ;;("marmalade" . "https://marmalade-repo.org/packages/")
-			 ))
-(put 'downcase-region 'disabled nil)
+;; Add exec path from shell ;; after package-initialize
+;; by Purcell
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
